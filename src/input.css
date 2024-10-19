@@ -1,0 +1,13 @@
+@import "/node_modules/locomotive-scroll/src/locomotive-scroll.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .translate-y-10 {
+      transform: translateY(2.5rem); /* Awal di bawah */
+    }
+    .translate-y-0 {
+      transform: translateY(0); /* Posisi akhir */
+    }
+  }
