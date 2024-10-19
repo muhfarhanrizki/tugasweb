@@ -5,9 +5,9 @@
 
 @layer utilities {
     .translate-y-10 {
-      transform: translateY(2.5rem); /* Awal di bawah */
+      transform: translateY(2.5rem);
     }
     .translate-y-0 {
-      transform: translateY(0); /* Posisi akhir */
+      transform: translateY(0);
     }
   }
